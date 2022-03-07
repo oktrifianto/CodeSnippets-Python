@@ -8,7 +8,9 @@ data = {
   "pets"  : None,
   "cars" : [
     {
-      "models" : "BMW i8", "year": 2020,
+      "models" : "BMW i8", "year": 2020
+    },
+    {
       "models" : "Toyota Supra", "year" : 2019 
     }
   ]
@@ -17,4 +19,4 @@ data = {
 print(json.dumps(data))
 
 # --- result --- #
-# {"name": "John", "age": 20, "married": true, "divorced": false, "pets": null, "cars": [{"models": "Toyota Supra", "year": 2019}]}
+# {"name": "John", "age": 20, "married": true, "divorced": false, "pets": null, "cars": [{"models": "BMW i8", "year": 2020}, {"models": "Toyota Supra", "year": 2019}]}
