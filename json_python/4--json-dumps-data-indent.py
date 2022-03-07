@@ -16,7 +16,35 @@ data = {
   ]
 }
 
-print(json.dumps(data))
+# print(json.dumps(data))
 
 # --- result --- #
 # {"name": "John", "age": 20, "married": true, "divorced": false, "pets": null, "cars": [{"models": "BMW i8", "year": 2020}, {"models": "Toyota Supra", "year": 2019}]}
+
+
+# --------------------------
+# PRINT USING INDENT
+
+print(json.dumps(data, indent=4))
+
+# --- result ---
+"""
+{
+    "name": "John",
+    "age": 20,
+    "married": true,
+    "divorced": false,
+    "pets": null,
+    "cars": [
+        {
+            "models": "BMW i8",
+            "year": 2020
+        },
+        {
+            "models": "Toyota Supra",
+            "year": 2019
+        }
+    ]
+}
+
+"""
