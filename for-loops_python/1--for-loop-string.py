@@ -1,8 +1,6 @@
-"""
 ########################
 # For loop in a string # 
 ########################
-"""
 MyString = "coffee"
 for i in MyString:
   print(i)
