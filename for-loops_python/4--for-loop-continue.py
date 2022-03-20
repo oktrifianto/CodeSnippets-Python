@@ -3,3 +3,13 @@ for x in drink:
   if x == "tea":
     continue
   print(x)
+
+
+"""
+-------------
+result
+-------------
+coffee
+milk
+lemon
+"""
