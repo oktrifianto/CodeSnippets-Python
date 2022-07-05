@@ -8,8 +8,8 @@ def multiply(x, y):
   return x * y
 
 def division(x, y):
-  if (y <= 0):
-    return 'Can not divided by 0'
+  if (y == 0):
+    raise ValueError('Can not divided by 0')
   return x / y
 
 ## manual testing
